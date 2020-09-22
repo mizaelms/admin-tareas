@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      lang="en">
+<head>
+    <!--/*/ <th:block th:include="fragments/head :: head"></th:block> /*/-->
+    <title>Tareas</title>
+</head>
+
+<body>
+<header>
+    <!--/*/ <th:block th:include="fragments/header :: header('home')"></th:block> /*/-->
+</header>
+
+<main class="container">
+    <h1 class="display-4">Bienvenido al manejador de tareas</h1>
+    <p class="lead">Esta aplicación te ayudará a hacer cosas</p>
+
+    <hr class="my-4">
+    <p>La mayoría de las funciones requieren iniciar sesión. Los usuarios no autorizados tienen acceso a la pantalla de bienvenida y al panel de inicio de sesión o registro.</p>
+
+    <p>Admin (manager) puede:</p>
+    <ul>
+        <li>Cree tareas y asigne tareas a cualquier usuario</li>
+        <li>Ver lista de todos los usuarios con posibilidad de eliminar usuarios</li>
+        <li>Ver lista de todas las tareas con la edición o eliminación de tareas</li>
+    </ul>
+        <p>El usuario común puede:</p>
+    <ul>
+        <li>Crear tarea solo para él</li>
+        <li>Ver lista de todos los usuarios sin acción permitida</li>
+        <li>Ver la lista de todas las tareas, pero editar o eliminar solo las tareas de las que es responsable</li>
+    </ul>
+
+    <p>Todo usuario autorizado puede:</p>
+    <ul>
+        <li>Ver su propio perfil</li>
+        <li>Cambiar tarea como completada / pendiente</li>
+
+    </ul>
+
+    <h2 class="my-second-header">Usuarios test:</h2>
+    <ul>
+        <li>manager@mail.com, password: 112233</li>
+        <li>ann@mail.com, password: 112233</li>
+        <li>mark@mail.com, password: 112233</li>
+    </ul>
+</main>
+
+<footer class="footer">
+    <!--/*/ <th:block th:include="fragments/footer :: footer"></th:block> /*/-->
+</footer>
+
+</body>
+</html>
