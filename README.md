@@ -23,7 +23,7 @@ Los usuarios no autorizados tienen acceso a la pantalla de bienvenida y al panel
 -	Ver su propio perfil
 
 
-##Construido con
+## Construido con
 * Spring Boot
 * Spring Security
 * H2 database
@@ -38,5 +38,14 @@ Pegue el correo electrónico y la contraseña en el formulario de inicio de sesi
 `manager@mail.com`  password: `112233`  
 `diana@mail.com`  password: `diana`  
 `mizaelm@mail.com`  password: `mizaelm`
+
+
+## Como corre el proyecto 
+
+git clone https://github.com/mizaelms/admin-tareas.git
+
+cd admin-tareas
+
+mvn clean spring-boot:run
   
   
